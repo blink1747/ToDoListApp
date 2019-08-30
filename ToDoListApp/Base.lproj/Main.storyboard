@@ -85,6 +85,7 @@
                                 <state key="normal" title="Add Item"/>
                                 <connections>
                                     <action selector="addItemAction:" destination="B1y-EM-9Gi" eventType="touchUpInside" id="Zzv-NQ-QvF"/>
+                                    <segue destination="3Lo-4b-zl3" kind="show" id="KoZ-44-78a"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -118,4 +119,7 @@
             <point key="canvasLocation" x="957.97101449275374" y="112.5"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="KoZ-44-78a"/>
+    </inferredMetricsTieBreakers>
 </document>
